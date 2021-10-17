@@ -1,0 +1,20 @@
+GET https://api.rajaongkir.com/starter/province
+key: 3175df5cedb867427df49c839cd48449
+
+
+###
+POST https://fcm.googleapis.com/fcm/send
+Content-Type: application/json
+Authorization: key=AAAANoUYm2M:APA91bFTfFaKVcj2pfTj_LjM727V7ws0VNOGVbuad1K9w6L8E6ZtBnd0g4f2mLbjoz-b_HySPzU2zkfPXc-caNI7Lj_if5z-bOPIEAN6_RbOxGDnQ8HU9ddesJQBbMh9HHNxG9tpPRIv
+
+{
+    "to": "/topics/all",
+    "notification": {
+        "title": "Test",
+        "body": "Notification Test"
+    },
+    "data": {
+        "id": "12345"
+    },
+    "priority": "high"
+}

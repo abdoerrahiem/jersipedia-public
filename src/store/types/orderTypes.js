@@ -1,0 +1,2 @@
+export const UPDATE_ORDER = 'UPDATE_ORDER'
+export const CLEAN_UPDATE_ORDER = 'CLEAN_UPDATE_ORDER'
