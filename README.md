@@ -9,4 +9,4 @@
 - npm run android
 
 #### See overview app here: https://youtu.be/KKjGxR091KY
-#### Download app here: coming soon
+#### Download app here: https://drive.google.com/file/d/1StMobnL0kvFsGWMfzNdlNBseSSl8PnSL/view?usp=sharing
